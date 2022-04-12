@@ -1,36 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1649749187480" clover="3.2.0">
-  <project timestamp="1649749187480" name="All files">
-    <metrics statements="15" coveredstatements="15" conditionals="2" coveredconditionals="2" methods="11" coveredmethods="11" elements="28" coveredelements="28" complexity="0" loc="15" ncloc="15" packages="1" files="5" classes="5"/>
-    <file name="App.jsx" path="/Users/chanho/Desktop/chris/codesoom/react-week4-assignment-1/src/App.jsx">
-      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
-      <line num="6" count="8" type="stmt"/>
-      <line num="12" count="8" type="stmt"/>
-      <line num="15" count="2" type="stmt"/>
-      <line num="22" count="2" type="stmt"/>
-      <line num="31" count="1" type="stmt"/>
-      <line num="33" count="1" type="stmt"/>
-      <line num="37" count="8" type="stmt"/>
-    </file>
-    <file name="Input.jsx" path="/Users/chanho/Desktop/chris/codesoom/react-week4-assignment-1/src/Input.jsx">
-      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="2" count="17" type="stmt"/>
-    </file>
-    <file name="Item.jsx" path="/Users/chanho/Desktop/chris/codesoom/react-week4-assignment-1/src/Item.jsx">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <line num="2" count="25" type="stmt"/>
-      <line num="5" count="8" type="stmt"/>
-    </file>
-    <file name="List.jsx" path="/Users/chanho/Desktop/chris/codesoom/react-week4-assignment-1/src/List.jsx">
-      <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
-      <line num="4" count="17" type="cond" truecount="2" falsecount="0"/>
-      <line num="5" count="8" type="stmt"/>
-      <line num="10" count="9" type="stmt"/>
-      <line num="13" count="23" type="stmt"/>
-    </file>
-    <file name="Page.jsx" path="/Users/chanho/Desktop/chris/codesoom/react-week4-assignment-1/src/Page.jsx">
-      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="8" count="13" type="stmt"/>
-    </file>
+<coverage generated="1649772353858" clover="3.2.0">
+  <project timestamp="1649772353858" name="All files">
+    <metrics statements="32" coveredstatements="32" conditionals="11" coveredconditionals="11" methods="18" coveredmethods="18" elements="61" coveredelements="61" complexity="0" loc="32" ncloc="32" packages="3" files="8" classes="8"/>
+    <package name="components">
+      <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6"/>
+      <file name="App.jsx" path="/Users/chanho/Desktop/chris/codesoom/react-week4-assignment-1/src/components/App.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="3" type="stmt"/>
+      </file>
+      <file name="Input.jsx" path="/Users/chanho/Desktop/chris/codesoom/react-week4-assignment-1/src/components/Input.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="9" type="stmt"/>
+      </file>
+      <file name="Item.jsx" path="/Users/chanho/Desktop/chris/codesoom/react-week4-assignment-1/src/components/Item.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="2" count="13" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
+      </file>
+      <file name="List.jsx" path="/Users/chanho/Desktop/chris/codesoom/react-week4-assignment-1/src/components/List.jsx">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="4" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
+        <line num="13" count="11" type="stmt"/>
+      </file>
+    </package>
+    <package name="containers">
+      <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
+      <file name="InputContainer.jsx" path="/Users/chanho/Desktop/chris/codesoom/react-week4-assignment-1/src/containers/InputContainer.jsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="20" count="5" type="stmt"/>
+      </file>
+      <file name="ListContainer.jsx" path="/Users/chanho/Desktop/chris/codesoom/react-week4-assignment-1/src/containers/ListContainer.jsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="16" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="redux">
+      <metrics statements="15" coveredstatements="15" conditionals="9" coveredconditionals="9" methods="5" coveredmethods="5"/>
+      <file name="actions.js" path="/Users/chanho/Desktop/chris/codesoom/react-week4-assignment-1/src/redux/actions.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="11" count="7" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
+      </file>
+      <file name="reducer.js" path="/Users/chanho/Desktop/chris/codesoom/react-week4-assignment-1/src/redux/reducer.js">
+        <metrics statements="12" coveredstatements="12" conditionals="9" coveredconditionals="9" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="8" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="15" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="18" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="28" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>
